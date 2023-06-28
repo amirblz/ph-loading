@@ -1,0 +1,19 @@
+:host {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.fill {
+  background-color: #ced4da;
+  border-radius: 3px;
+}
+.empty {
+  background-color: hsla(0, 0%, 100%, 0) !important;
+}
+.circle {
+  background-color: #ced4da;
+  border-radius: 50%;
+  min-width: 20px;
+  overflow: hidden;
+  position: relative;
+}

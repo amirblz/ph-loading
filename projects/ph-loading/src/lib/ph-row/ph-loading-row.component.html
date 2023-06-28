@@ -1,0 +1,14 @@
+<div
+  *ngFor="let column of columns"
+  ngClass="col-{{ column.col }}"
+  [class.circle]="column.isCircle"
+  [ngStyle]="{
+    height: column.height,
+    width: column.circleWidth,
+    'margin-bottom': rowGap,
+    'margin-top': rowGap
+  }"
+  class="px-1"
+>
+  <div class="w-100 h-100 fill" [class.empty]="!column.fill"></div>
+</div>
