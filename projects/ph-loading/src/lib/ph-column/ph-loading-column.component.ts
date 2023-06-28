@@ -5,14 +5,13 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './ph-loading-column.component.html',
   styleUrls: ['./ph-loading-column.component.scss'],
 })
-export class PlaceholderLoadingColumnComponent implements OnInit {
+export class PlaceholderLoadingColumnComponent {
   @Input() height: string;
   @Input() fill: boolean;
   @Input() col: string;
   @Input() isCircle: boolean;
-  circleWidth: string;
 
-  constructor() {}
+  circleWidth: string;
 
   ngOnInit(): void {
     if (!this.isCircle) {
@@ -21,6 +20,5 @@ export class PlaceholderLoadingColumnComponent implements OnInit {
       this.height = this.height + 'vw';
       this.circleWidth = this.height;
     }
-    console.log(this.circleWidth);
   }
 }
