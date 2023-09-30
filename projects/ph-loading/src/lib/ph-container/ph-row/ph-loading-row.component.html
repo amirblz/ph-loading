@@ -5,10 +5,12 @@
   [ngStyle]="{
     height: column.height,
     width: column.circleWidth,
+    'aspect-ratio': column.aspectRatio,
+    flex: column.circleFlex,
     'margin-bottom': rowGap,
     'margin-top': rowGap
   }"
   class="px-1"
 >
-  <div class="w-100 h-100 fill" [class.empty]="!column.fill"></div>
+  <div class="w-100 h-100 fill" [class.empty]="!column.isFilled"></div>
 </div>

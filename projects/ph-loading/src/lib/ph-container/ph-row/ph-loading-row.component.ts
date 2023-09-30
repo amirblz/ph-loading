@@ -1,5 +1,5 @@
 import { Component, Input, ContentChildren, QueryList } from '@angular/core';
-import { PlaceholderLoadingColumnComponent } from '../ph-column/ph-loading-column.component';
+import { PlaceholderLoadingColumnComponent } from './ph-column/ph-loading-column.component';
 
 @Component({
   selector: 'ph-loading-row',
@@ -9,5 +9,5 @@ import { PlaceholderLoadingColumnComponent } from '../ph-column/ph-loading-colum
 export class PlaceholderLoadingRowComponent {
   @ContentChildren(PlaceholderLoadingColumnComponent)
   columns: QueryList<PlaceholderLoadingColumnComponent>;
-  @Input() rowGap: string;
+  @Input() public rowGap: string;
 }

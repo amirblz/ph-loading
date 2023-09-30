@@ -6,19 +6,23 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./ph-loading-column.component.scss'],
 })
 export class PlaceholderLoadingColumnComponent {
-  @Input() height: string;
-  @Input() fill: boolean;
-  @Input() col: string;
-  @Input() isCircle: boolean;
+  @Input() public col: string;
+  @Input() public height: string;
+  @Input() public isFilled: boolean;
+  @Input() public isCircle: boolean;
 
   circleWidth: string;
+  aspectRatio: string;
+  circleFlex: string;
 
   ngOnInit(): void {
     if (!this.isCircle) {
       this.height = this.height + 'px';
     } else {
-      this.height = this.height + 'vw';
-      this.circleWidth = this.height;
+      this.height = 'unset';
+      this.circleWidth = 'unset';
+      this.aspectRatio = '1/1';
+      this.circleFlex = '1';
     }
   }
 }
