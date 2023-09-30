@@ -127,7 +127,7 @@ The `PlaceholderLoadingColumnComponent` is used to define individual loading col
 
 ## Version History
 
-- **v1.0.0** (September 2023): Initial release of ng-ph-loading.
+- **v1.0.1** (September 2023): Initial release of ng-ph-loading.
 
 ## Conclusion
 
