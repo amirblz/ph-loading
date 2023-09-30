@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { PlaceholderLoadingContainerComponent } from './ph-container/ph-loading-container.component';
-import { PlaceholderLoadingColumnComponent } from './ph-column/ph-loading-column.component';
-import { PlaceholderLoadingRowComponent } from './ph-row/ph-loading-row.component';
+import { PlaceholderLoadingRowComponent } from './ph-container/ph-row/ph-loading-row.component';
+import { PlaceholderLoadingColumnComponent } from './ph-container/ph-row/ph-column/ph-loading-column.component';
 
 @NgModule({
   declarations: [
@@ -11,6 +11,7 @@ import { PlaceholderLoadingRowComponent } from './ph-row/ph-loading-row.componen
     PlaceholderLoadingRowComponent,
     PlaceholderLoadingColumnComponent,
   ],
+
   imports: [CommonModule],
   exports: [
     PlaceholderLoadingContainerComponent,
