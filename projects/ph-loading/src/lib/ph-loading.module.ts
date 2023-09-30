@@ -11,6 +11,7 @@ import { PlaceholderLoadingColumnComponent } from './ph-container/ph-row/ph-colu
     PlaceholderLoadingRowComponent,
     PlaceholderLoadingColumnComponent,
   ],
+
   imports: [CommonModule],
   exports: [
     PlaceholderLoadingContainerComponent,
@@ -19,7 +20,3 @@ import { PlaceholderLoadingColumnComponent } from './ph-container/ph-row/ph-colu
   ],
 })
 export class PlaceholderLoadingModule {}
-export * from './ph-loading.module';
-export * from './ph-container/ph-loading-container.component';
-export * from './ph-container/ph-row/ph-loading-row.component';
-export * from './ph-container/ph-row/ph-column/ph-loading-column.component';

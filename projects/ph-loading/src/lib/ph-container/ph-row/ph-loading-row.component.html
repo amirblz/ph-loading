@@ -1,7 +1,7 @@
 <div
   *ngFor="let column of columns"
   ngClass="col-{{ column.col }}"
-  [class.circle]="column.isCircle"
+  [class.circle]="column.circle"
   [ngStyle]="{
     height: column.height,
     width: column.circleWidth,
@@ -12,5 +12,5 @@
   }"
   class="px-1"
 >
-  <div class="w-100 h-100 fill" [class.empty]="!column.isFilled"></div>
+  <div class="w-100 h-100 fill" [class.empty]="!column.filled"></div>
 </div>
