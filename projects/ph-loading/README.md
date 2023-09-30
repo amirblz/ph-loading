@@ -123,7 +123,7 @@ The `PlaceholderLoadingColumnComponent` is used to define individual loading col
 
 ## Additional Resources
 
-- [GitHub Repository](https://github.com/your-repo/ng-ph-loading)
+- [GitHub Repository](https://github.com/amirblz/ph-loading)
 
 ## Version History
 
