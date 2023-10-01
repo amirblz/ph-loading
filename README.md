@@ -39,7 +39,7 @@ The `PlaceholderLoadingContainerComponent` is used as a wrapper to define the ov
 **Inputs:**
 
 - `bgColor` (string): Background color of the loading container.
-- `border` (string): Border style of the loading container.
+- `border` (string): Border style of the loading container, e.g., "1px solid #333".
 - `padding` (string): Padding around the loading container.
 - `bRadius` (string): Border radius of the loading container.
 - `rowGap` (string): Gap between rows.
@@ -59,7 +59,7 @@ The `PlaceholderLoadingRowComponent` is used to define rows of loading placehold
 
 **Inputs:**
 
-- `rowGap` (string): Gap between columns in the row.
+- `rowGap` (string): Gap between this single row and other rows.
 
 **Usage:**
 
@@ -76,7 +76,7 @@ The `PlaceholderLoadingColumnComponent` is used to define individual loading col
 **Inputs:**
 
 - `col` (string): Width of the column, e.g., "2" for 2/12 grid width.
-- `height` (string): Height of the column.
+- `height` (string): Height of the column (pixels).
 - `filled` (boolean): Whether the column should appear filled.
 - `circle` (boolean): Whether the column should have a circular shape.
 
