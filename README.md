@@ -131,4 +131,4 @@ The `PlaceholderLoadingColumnComponent` is used to define individual loading col
 
 ## Conclusion
 
-Thank you for using **ng-ph-loading** to enhance your Angular application's loading experience. I hope this library simplifies the process of creating loading placeholders and contributes to a better user experience in your project. If you have any feedback or suggestions, please feel free to share them with us on our GitHub repository.
+Thank you for using **ng-ph-loading** to enhance your Angular application's loading experience. I hope this library simplifies the process of creating loading placeholders and contributes to a better user experience in your project. If you have any feedback or suggestions, please feel free to share them with me on GitHub repository.
